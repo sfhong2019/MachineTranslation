@@ -1,0 +1,10 @@
+*.npz
+*.json
+vocab*
+truecase-model*
+bpe.model*
+.NOTES
+*~
+*.index
+*.meta
+*.data-00000-of-00001

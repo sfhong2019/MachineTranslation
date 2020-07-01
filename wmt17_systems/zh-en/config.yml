@@ -1,0 +1,25 @@
+# Paths are relative to config file location
+relative-paths: yes
+
+# performance settings
+beam-size: 12
+devices: [0]
+normalize: yes
+cpu-threads: 0
+gpu-threads: 1
+
+# scorer configuration
+scorers:
+  F0:
+    path: /fs/vali0/www/data.statmt.org/wmt17_systems/zh-en/model.l2r.ens3.npz
+    type: Nematus
+#bpe: /fs/vali0/www/data.statmt.org/wmt17_systems/zh-en/bpe.model.zh
+
+# scorer weights
+weights:
+  F0: 1.0
+
+# vocabularies
+#source-vocab: /fs/vali0/www/data.statmt.org/wmt17_systems/zh-en/vocab.zh.json
+#target-vocab: /fs/vali0/www/data.statmt.org/wmt17_systems/zh-en/vocab.en.json
+vocabs: [/fs/vali0/www/data.statmt.org/wmt17_systems/zh-en/vocab.zh.yml, /fs/vali0/www/data.statmt.org/wmt17_systems/zh-en/vocab.en.yml]

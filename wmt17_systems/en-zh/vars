@@ -1,0 +1,4 @@
+src=en
+trg=zh
+nematus_home=/home/xiaojie/URun.ResearchPrototype/People/Xiaojie/MachineTranslation/toolbox/nematus
+device=0
